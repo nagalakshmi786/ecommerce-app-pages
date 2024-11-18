@@ -1,0 +1,38 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .modal {
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+  }
+  .product-card img {
+    width: 100px;
+    height: 120px;
+}
+.imghtwt{
+  height: 50%;
+  width: 50%;
+}
+.closepos{
+  right: 10px;
+  position: absolute;
+  top: 10px;
+}
+.modalpos{
+  position: relative;
+  border: 1px solid #ccc;
+}
+  
